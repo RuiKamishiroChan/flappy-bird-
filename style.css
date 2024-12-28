@@ -1,0 +1,44 @@
+body {
+	background: rgb(109,116,156);
+background: radial-gradient(circle, rgba(109,116,156,1) 0%, rgba(19,22,38,1) 100%);
+}
+
+.canvas {
+	margin: 0 auto;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+	color: white;
+}
+.description {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+button {
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 5px;
+	border-radius: 15px;
+	border: none;
+	color: white;
+}
+
+.control {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
